@@ -1,49 +1,42 @@
-# Road Skills School - Driving School Website
+## Available Scripts
 
-![Road Skills School](https://github.com/DevRex-0201/React-OnlineSchool/blob/main/src/images/car-driving-women.jpg)
+In the project directory, you can run:
 
-Welcome to Road Skills School, a professional driving school website built with React.js, HTML, CSS, and JavaScript. This website features an authentication system allowing users to log in using Google. The payment system is integrated with Stripe, and users must be logged in to make payments. Administrators have the ability to add and delete services, as well as manage daily lesson schedules through a calendar interface.
+### `npm start`
 
-## Live Website
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-Explore the live website: [Road Skills School](https://road-skills-school.web.app/)
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
 
-## Theme Design
+### `npm test`
 
-The design inspiration for this project was derived from a theme on ThemeForest. You can check out the original design [here](http://preview.themeforest.net/item/edlane-driving-school-wordpress-theme/full_screen_preview/23819623).
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-## Features
+### `npm run build`
 
-- **User Authentication**:
-  - Google login authentication system
-  - Note: Click the Google login button twice if the popup does not appear initially.
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-- **Payment System**:
-  - Integrated with Stripe for secure payments
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-- **Admin Panel**:
-  - Add and delete services
-  - Manage daily lesson schedules through a calendar interface (extra feature)
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-- **Normal User**:
-  - Add reviews
-  - Avail driving services
+### `npm run eject`
 
-## Getting Started
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-1. Clone the repository:
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-   ```bash
-   git clone <repository-url>
-   ```
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-2. Install dependencies and start the development server:
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-   ```bash
-   npm install
-   npm start
-   ```
+## Learn More
 
-3. Open [http://localhost:3000](http://localhost:3000) to view the project in your browser.
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-Thank you for choosing Road Skills School for your project! For any questions or concerns, feel free to reach out. Happy driving! 🚗🛣️
+To learn React, check out the [React documentation](https://reactjs.org/).
